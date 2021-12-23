@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-19T21:50:01.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ANk2Zjzsn3WH7T2Y6vIc" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T14:58:32.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NP6U2n5of_aiPbr8EKdt" version="15.8.6" type="github">
   <diagram id="_DG6NlmG2gAcVj_bHYf6" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -55,17 +55,22 @@
         <mxCell id="il55I2QEWZ_CH8Z_JLXR-49" value="VM - Linux" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
           <mxGeometry x="310" y="171" width="50" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="il55I2QEWZ_CH8Z_JLXR-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="il55I2QEWZ_CH8Z_JLXR-90" target="il55I2QEWZ_CH8Z_JLXR-95">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="il55I2QEWZ_CH8Z_JLXR-90" value="RabbitMQ" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Event_Grid_Topics.svg;" vertex="1" parent="1">
           <mxGeometry x="730" y="503" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="il55I2QEWZ_CH8Z_JLXR-231" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;gradientColor=#ffffff;" edge="1" parent="1" source="il55I2QEWZ_CH8Z_JLXR-94" target="il55I2QEWZ_CH8Z_JLXR-136">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="il55I2QEWZ_CH8Z_JLXR-94" value="Kibana" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Monitor.svg;" vertex="1" parent="1">
           <mxGeometry x="900" y="374.5" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="il55I2QEWZ_CH8Z_JLXR-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="il55I2QEWZ_CH8Z_JLXR-95" target="il55I2QEWZ_CH8Z_JLXR-136">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="il55I2QEWZ_CH8Z_JLXR-228" value="Listening" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;gradientColor=#ffffff;" edge="1" parent="1" source="il55I2QEWZ_CH8Z_JLXR-95" target="il55I2QEWZ_CH8Z_JLXR-90">
+          <mxGeometry x="0.1592" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="il55I2QEWZ_CH8Z_JLXR-95" value="Log Stash" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/LogDiagnostics.svg;" vertex="1" parent="1">
           <mxGeometry x="732.5" y="374.5" width="45" height="50" as="geometry" />
@@ -172,8 +177,17 @@
         <mxCell id="il55I2QEWZ_CH8Z_JLXR-128" value="Circuit Breaker" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Express_Route.svg;" vertex="1" parent="1">
           <mxGeometry x="420" y="834.5" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="il55I2QEWZ_CH8Z_JLXR-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="il55I2QEWZ_CH8Z_JLXR-136" target="il55I2QEWZ_CH8Z_JLXR-94">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="il55I2QEWZ_CH8Z_JLXR-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;gradientColor=#ffffff;entryX=1;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="il55I2QEWZ_CH8Z_JLXR-136" target="il55I2QEWZ_CH8Z_JLXR-90">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="841" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="il55I2QEWZ_CH8Z_JLXR-230" value="Ack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="il55I2QEWZ_CH8Z_JLXR-229">
+          <mxGeometry x="-0.2625" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="il55I2QEWZ_CH8Z_JLXR-136" value="Elastic Search" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Elastic_Job_Agents.svg;" vertex="1" parent="1">
           <mxGeometry x="820" y="374.5" width="42" height="50" as="geometry" />
