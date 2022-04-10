@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-04-09T17:05:27.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="S8SNB6Hi1G5jARqtOu9W" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-10T12:59:33.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="1qsI9eh43taVneZfsG1N" version="17.4.1" type="github">
   <diagram id="glyeJMS_ofxhlaCZ-RQE" name="Page-1">
     <mxGraphModel dx="322" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Y1fBUkPcHjpI6Z6MAmAD-21" value="Servidor de Autenticação" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="Y1fBUkPcHjpI6Z6MAmAD-21" value="&lt;b&gt;Servidor de Autenticação&lt;/b&gt;&lt;br&gt;oauth-ms" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1831.260891850333" y="120" width="92.62021031188856" height="107.69791896731226" as="geometry" />
         </mxCell>
-        <mxCell id="Y1fBUkPcHjpI6Z6MAmAD-22" value="Servidor de Aplicação" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="Y1fBUkPcHjpI6Z6MAmAD-22" value="&lt;b&gt;Servidor de Aplicação&lt;/b&gt;&lt;br&gt;api-gateway-zuul" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1831.260891850333" y="491.18504226529103" width="92.62021031188856" height="107.69791896731226" as="geometry" />
         </mxCell>
         <mxCell id="Y1fBUkPcHjpI6Z6MAmAD-23" value="" style="endArrow=classic;html=1;curved=1;fontSize=14;" edge="1" parent="1">
