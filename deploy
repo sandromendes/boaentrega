@@ -1,1 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T09:46:55.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.2" etag="P9VipgDRTwdHE4nK10ec" type="github"><diagram id="QonNpHh7hTaP9j-5Yd1M">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-12T10:03:44.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Zw-98dgSIdvOmaUGIE6s" version="17.4.2" type="github">
+  <diagram id="QonNpHh7hTaP9j-5Yd1M" name="Page-1">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cECudWndgQPyWAB7uKaM-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.end_user;strokeColor=none;fillColor=#777777;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="60" height="123.01" as="geometry" />
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-5" value="" style="endArrow=classic;html=1;curved=1;entryX=0;entryY=0.561;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cECudWndgQPyWAB7uKaM-2" target="cECudWndgQPyWAB7uKaM-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="280" as="sourcePoint" />
+            <mxPoint x="430" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-23" value="&lt;span style=&quot;color: rgb(51, 51, 255); font-style: italic; font-size: 13px;&quot;&gt;http://www.boaentrega-app.com.br&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontSize=13;" vertex="1" connectable="0" parent="cECudWndgQPyWAB7uKaM-5">
+          <mxGeometry x="-0.1136" y="1" relative="1" as="geometry">
+            <mxPoint x="3" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-6" value="" style="endArrow=classic;html=1;curved=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="340" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-8" value="&lt;font color=&quot;#000000&quot;&gt;Backend&lt;/font&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application_server2;fontColor=#3333FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="664.6800000000001" y="50" width="77.4" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-9" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;AWS Route 53&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; background-color: rgb(248 , 249 , 250)&quot;&gt;DNS&lt;/span&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;fontColor=#3333FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="310" y="63" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#000000;" edge="1" parent="1" source="cECudWndgQPyWAB7uKaM-10" target="cECudWndgQPyWAB7uKaM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-22" value="Angular&lt;br style=&quot;font-size: 13px;&quot;&gt;HTML/JS/CSS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontSize=13;" vertex="1" connectable="0" parent="cECudWndgQPyWAB7uKaM-19">
+          <mxGeometry x="0.2306" y="-2" relative="1" as="geometry">
+            <mxPoint x="-16" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cECudWndgQPyWAB7uKaM-10" target="cECudWndgQPyWAB7uKaM-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="476" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-21" value=":8765/api/" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontSize=13;fontStyle=2" vertex="1" connectable="0" parent="cECudWndgQPyWAB7uKaM-20">
+          <mxGeometry x="0.1896" y="3" relative="1" as="geometry">
+            <mxPoint x="22" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-10" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;AWS Cloudfront&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Proxy&lt;/span&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.server_generic;fontColor=#3333FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="220" width="51.36" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="cECudWndgQPyWAB7uKaM-15" value="&lt;font&gt;AWS S3 Frontend&lt;/font&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.s3Bucket;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="228.5" width="86.76" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
